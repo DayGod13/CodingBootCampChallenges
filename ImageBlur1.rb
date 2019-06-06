@@ -6,18 +6,13 @@ class Image
     end
 
     def output_image
-        # puts self
-        # @image.each do |i|
-        #     puts i
-
         @image.each do |row|
             row.each do |col|
                 print col.to_s + ""
             end
             puts
         end
-    #end
-end
+    end
 
 end
 
